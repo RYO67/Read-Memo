@@ -27,7 +27,6 @@ class UsersController < ApplicationController
   def login_guest
     @user = User.find_by(
       email: 'guest_user@example.com',
-      password_digest: '$2a$12$0WLm3TI1BuR3ywbetTqdNOpH.oLCn.QgOgtfXI2r0U8wP0xv3FbhC'
     )
     if @user
       session[:user_id] = @user.id
