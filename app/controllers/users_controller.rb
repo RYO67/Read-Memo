@@ -25,9 +25,7 @@ class UsersController < ApplicationController
   end
 
   def login_guest
-    @user = User.find_by(
-      email: 'guest_user@example.com',
-    )
+    @user = User.find_by(email: 'guest_user@example.com')
     if @user
       session[:user_id] = @user.id
       flash[:notice] = 'ゲストユーザーとしてログインしました'
