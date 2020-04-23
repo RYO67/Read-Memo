@@ -7,7 +7,7 @@ Read&Memoは、読み終えた本の内容を自身で要約し、管理する�
 
 
 # サイトURL
-hogehoge
+https://floating-harbor-60256.herokuapp.com/
 
 
 
