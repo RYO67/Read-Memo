@@ -62,7 +62,7 @@ gem 'refile-mini_magick', github: 'refile/refile-mini_magick'
 
 gem 'carrierwave', '1.2.2'
 gem 'fog', '1.42'
-gem 'kaminari', '~> 0.17.0'
+gem 'kaminari', '~> 1.2.1'
 gem 'mini_magick', '4.7.0'
 
 gem 'devise'
